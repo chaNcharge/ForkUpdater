@@ -1,6 +1,6 @@
 # ForkUpdater
 
-A small script that will automatically update your forks. Designed for Heroku and GitHub, but can run on any project on any Git repository via CI or cronjob.
+A small script that will automatically update your forks. Designed for Heroku and GitHub, but can run on any project on any Git repository via CI or cronjob. If there's a problem with merging (such as merge conflicts), the script will open up an issue in your repo to let you know there was an issue.
 
 ## Environment variables
 
