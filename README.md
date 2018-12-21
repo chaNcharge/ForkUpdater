@@ -9,5 +9,5 @@ Environment variables must be used when running the script. The reason why they'
 - `GITHUB_REPO`: Your repo; part of the link after `https://github.com/` (e.g `chaNcharge/avaire`)
 - `GITHUB_REPO_BRANCH`: Your repo's branch to merge into
 - `GITHUB_SECRET_TOKEN`: Your personal access token, the token will need public repo permissions
-- `UPSTREAM_REPO`: The upstream repo to update from
+- `UPSTREAM_REPO`: The upstream repo to update from; part of the link after `https://github.com/` (e.g `chaNcharge/avaire`)
 - `UPSTREAM_BRANCH`: The upstream repo's branch to update from
