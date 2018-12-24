@@ -6,8 +6,8 @@ A small script that will automatically update your forks. Designed for Heroku an
 
 Environment variables must be used when running the script. The reason why they're not in the script itself is for security, as you need to provide an access token. With environment variables, you can easily change these values on any dashboard while also keeping your variables secure.
 
-- `GITHUB_REPO`: Your repo; part of the link after `https://github.com/` (e.g `chaNcharge/avaire`)
-- `GITHUB_REPO_BRANCH`: Your repo's branch to merge into
-- `GITHUB_SECRET_TOKEN`: Your personal access token, the token will need public repo permissions
-- `UPSTREAM_REPO`: The upstream repo to update from; part of the link after `https://github.com/` (e.g `chaNcharge/avaire`)
-- `UPSTREAM_BRANCH`: The upstream repo's branch to update from
+- `GITHUB_REPO`: Your repo; part of the link after `https://github.com/` (e.g `chaNcharge/avaire`).
+- `GITHUB_REPO_BRANCH`: Your repo's branch namne to merge into.
+- `GITHUB_SECRET_TOKEN`: Your personal access token, the token will need public repo permissions. [You can create one here](https://github.com/settings/tokens/new).
+- `UPSTREAM_REPO`: The upstream repo to update from; part of the link after `https://github.com/` (e.g `chaNcharge/avaire`).
+- `UPSTREAM_BRANCH`: The upstream repo's branch name to update from.
